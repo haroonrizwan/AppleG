@@ -1,0 +1,461 @@
+ 
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background: url(./nav\ back.PNG); 
+   
+}
+header{
+ background: url(./nav\ back.PNG);
+    height: 74px;
+    justify-content: end;
+    display: flex;
+    justify-content: center;
+}
+#main-manu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    line-height: 79px;
+    width: 80%;
+ 
+}
+.list{
+    flex-grow: 0.5;
+}
+.list:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: antiquewhite;
+    
+}
+#main-manu :nth-child(2){
+    flex-grow: 3;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#main-manu :nth-child(9){
+    flex-grow: 3;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+#login-button{
+    width: 70px;
+    height: 33px;
+    border-radius: 27px;
+    border: 1px solid transparent;
+}
+#login-button:hover{
+    box-shadow: 0 0 10px black;
+    color: blue;
+    cursor: pointer;
+}
+.fa-brands{
+color: aliceblue;
+}
+#logo{
+    flex-grow: 0.3;
+}
+/* ya 1000px sa km pr show krwana ka lya bnaya gya ha  */
+@media screen and (max-width:749px){
+    #main-manu{
+        display: none;
+    }
+    .main-manu2{
+        display: flex;
+        width: 91%;
+        justify-content: end;
+        margin-top: 25px;
+        list-style: none;
+position: absolute;
+left: 20px;
+       
+    }
+}
+@media screen and (min-width:750px){
+    .main-manu2{
+        display: none;
+}
+
+    #main-manu{
+        display: flex;
+}
+}
+.parent-manu{
+    width: 20px;
+    margin-right: 31px;
+
+}
+.chilunder-manu:hover{
+    text-decoration: underline;
+}
+.parent-manu:hover .under-manu{
+    display: block;
+
+}
+.under-manu{
+    background-color: black;
+    display: none;
+    list-style: none;
+    width: 160px;
+  
+   position: absolute;
+}
+#main-manu2{
+    width: 88%;
+    position: absolute;
+    height: 78px;
+    display: flex;
+    line-height: 1;
+    top: 21px;
+}
+
+#main-manu2 :nth-child(2){
+    flex-grow: 10;
+    
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
+}
+.new-list{
+   
+    font-size: 20px;
+}
+.fa-sharp{
+    font-size: 30px;
+    margin-top: 13px;
+    color: white;
+}
+.fa-brands{
+    margin-top: 13px;
+}
+#parent-div{
+    display: flex;
+    height: 527px;
+    width: 100%;
+    color: white;
+    background: url(./back\ 1\ por.svg);
+}
+ #img{
+    width: 175%;
+   
+    margin-left: -263px;
+    margin-top: 246px}
+h1{
+    font-size: 60px;
+    margin-left: 37px;
+    font-weight: 900;
+}
+.child1{
+    width: 25%;
+    overflow: hidden;
+}
+.child2{
+    width: 57%;
+    margin: auto;
+}
+.child3{
+    width: 19%;
+    margin-right: 0px;
+    overflow: hidden;
+}
+
+
+#img2{
+    width: 229%;
+    margin-top: 193px;
+    margin-right: -14px;
+}
+pre{
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
+    margin-left: -41px;
+}
+.sizeofbutton1{
+    font-weight: 900;
+    font-size: clamp(10px,1vw,20px);
+    background-color: black;
+    color: white;
+    font-family: arial;
+    border: 1px solid black;
+    width: 295px;
+    height: 57px;
+    border-radius: 28px;
+    margin: 24px
+    
+}
+.sizeofbutton:hover{
+box-shadow: 0 0 15px black;
+color: blue;
+}
+.sizeofbutton{
+    font-weight: 900;
+    font-size: clamp(15px,1vw,20px);
+    background-color:white;
+    color: black;
+    font-family: arial;
+    border: 1px solid black;
+    width: 295px;
+    height: 57px;
+    border-radius: 28px;
+    margin: 24px
+
+}
+.sizeofbutton1:hover{
+    box-shadow: 0 0 15px black;
+}
+.fa-solid{
+    margin: 15px;
+}
+ 
+
+#scrol1{
+    display: flex;
+    height: 626px;
+    width: 100%;
+   
+    background-color: white;
+    align-items: center;
+    gap: 164px;
+    transition: all 1s ease-in 0s;
+}
+#scrol1:hover{
+    background-color:gray;
+}
+.son1{
+    align-items: center;
+}
+.son2{
+    transition: all 1s linear 0s;
+}
+.son2:hover{
+   color: white;
+   width: 350px;
+   font-weight: 900;
+}
+#hoverimg{
+    transition: all 1s ease-in 0.5s;
+}
+#hoverimg:hover{
+    box-shadow: 0 0 10px 10px white;
+    border-radius: 100px;
+   
+}
+.son2{
+    width: 321px;
+}
+.h2-1JkdZe{
+    font-weight: 900;
+    font-size: 33px;
+   
+}
+
+.two{
+    margin-left: 110px
+}
+.scrol2{
+    background-color: white !important;
+}
+.scrol2:hover{
+    background-color: cadetblue !important;
+}
+.son3{
+    width: 50%;
+}
+#scrol3{
+    display: flex;
+    height: 626px;
+    width: 100%;
+   
+    background-color: white;
+    align-items: center;
+    gap: 164px;
+    transition: all 1s ease-in 0s;}
+#scrol3:hover{
+    background-color: aquamarine;
+
+}
+#sayapa{
+    transition: all 1s ease-in 0.5s;
+}
+#sayapa:hover{
+    box-shadow: 0 0 10px 10px white;
+    border-radius: 100px;
+
+}
+#culm-parent{
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    height: 1227px;
+    width: 100%;
+    transition: all 1s ease-in 0s;
+    background-color: white;
+}
+.text{
+    height: 14px;
+    text-align: center;
+    font-size: larger;
+    margin: auto;
+    line-height: 1.5;
+}
+#para{
+    width: 913px;
+}
+.heading{
+   font-size: 53px;
+}
+.sizeof-img{
+    width: 100%;
+}
+.buttonnn{
+    text-align: center;
+}
+.h4-2lGy8w{
+    font-size: xx-large;
+}
+#culm-parent:hover{
+    background-color:cyan;
+}
+    
+.last-partdiv{
+height: 626px;
+width: 100%;
+background-color:rgb(34, 34, 34);
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.one{
+    margin-top: -33px;
+}
+.second{
+    margin-top: -173px
+}
+.trd{
+    line-height: 2;
+    list-style: none;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+footer{
+    display: flex;
+  height: 140px;
+    justify-content: space-around;
+    gap: 40%;
+    background-color:rgb(34, 34, 34) ;
+}
+.end{
+    border-top: 2px solid rgb(77, 77, 221);
+}
+@media screen and (max-width:763px){
+    #parent-div{
+        display: none;
+    } #scrol1{
+        display: none;
+    } #scrol3{
+        display: none;
+    } #culm-parent{
+        display: none;
+    }.last-partdiv{
+        display: none;
+    } footer{
+        display: none;
+    }
+    #first{
+        display: flex;
+        line-height: 1.5;
+        height: 754px;
+        width: 99%;
+        background-color: white;
+        margin-top: 100px;
+        color: white;
+        background: url(./back\ 1\ por.svg);
+    }
+    #sec{
+   
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+    width: 101%;
+      
+        position: absolute;
+        top: 110vh;
+        transition: all 1s ease-in 0s;
+    }
+    #se{
+       
+        width: 100%;
+        background-color: white;
+        color: black;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        transition: all 1s ease-in 0s;
+    }
+    #three{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        transition: all 1s ease-in 0s;
+    }
+    .five{
+        width: 100%;
+        display: flex;
+       background-color: rgb(34, 34, 34);
+    }
+}
+@media screen and (min-width:764px){
+    #parent-div{
+        display: flex;
+    } #scrol1{
+        display: flex;
+    } #scrol3{
+        display: flex;
+    } #culm-parent{
+        display: flex;
+    }.last-partdiv{
+        display: flex;
+    } footer{
+        display: flex;
+    }
+    #first{display: none;}
+    #sec{
+        display: none;
+    }
+    #se{display: none;}
+    #three{
+        display: none;
+    }
+    .five{display: none;}
+}
+#sec:hover{
+    background-color:greenyellow;
+}
+#headfirst{
+    width: 20px;
+    margin-left: -38px
+}
+#three:hover{
+    background-color: cyan;
+}
+
+#se:hover{
+    background-color: rgb(163, 162, 162);
+}

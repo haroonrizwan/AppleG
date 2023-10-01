@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+body{
+    background-image: url(banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar{
+    background-color: black; 
+    width: 70%;
+    margin: auto;
+}
+#newol{
+    text-align: center;
+position: relative;
+list-style-type: none;
+}
+.newli{
+    display: inline-block;
+  line-height: 50px;
+  margin-left: 40px;
+}
+#first {
+    background-color: transparent;
+    width: -18px;
+    height: 0px;
+    position: absolute;
+    left: -81px;
+    border-bottom: 50px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 26px solid transparent;
+    border-right: 55px solid black;
+}
+#last {
+    background-color: transparent;
+    width: 20px;
+    height: 0px;
+    position: absolute;
+    right: -88px;
+    top: 0px;
+    border-bottom: 50px solid transparent;
+    border-top: 0px solid purple;
+    border-left: 68px solid black;
+    border-right: 20px solif pink;
+}
+#ol2{
+    list-style-type: none;
+    position: absolute;
+    background-color: black;
+    display: none;
+}
+.newli:hover{
+    background-color: darkgoldenrod;
+}
+
+.newli:hover #ol2{
+    display: block !important;
+}
+.prov:hover{
+    background-color:darkgoldenrod ;
+}
+#newh1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 600px;
+    margin-top: 25px;
+}
+select{
+    background-color: black;
+}
+#newin{
+    width: 300px;
+    position: relative;
+    margin-left: 37px;
+}
+button{
+    background-color: black;
+    position: relative;
+    right: 85px;
+}
+#newimg{
+    margin-top: -2px;
+    
+    position: absolute;
+    right: 240px;
+}
+#p1{
+
+}
+div{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#h12{
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 60px;
+    font-size: 40px;
+}
+#button2{
+    background-color: black;
+    position: absolute;
+    top: 560px;
+    right: 600px;
+    font-size: 20px;
+}

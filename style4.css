@@ -1,0 +1,333 @@
+* {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(109, 109, 254);
+
+}
+
+#allparentdiv {
+    background: url(./mountain2.svg);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#navol {
+
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    line-height: 90px;
+
+
+}
+
+#logo {
+    position: absolute;
+    left: 100px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.newli {
+    width: 80px;
+    text-align: center;
+}
+
+.newli:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#navlogin {
+    width: 60px;
+    height: 36px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 50px;
+    position: absolute;
+    right: 43px;
+    top: 24px;
+}
+
+#headingdiv {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 110px;
+    font-size: 40px
+}
+
+#paradiv {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    text-align: center;
+}
+
+#twobuttondiv {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+
+}
+
+#stbutton {
+    color: black;
+    border: 1px black solid;
+    border-radius: 30px;
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+
+    .fa-solid {
+        color: black;
+        position: absolute;
+        left: 30px;
+        top: 28px;
+    }
+
+}
+
+#ndbutton {
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 30px;
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#leftimg {
+    position: absolute;
+    top: 260px;
+    left: -350px;
+}
+
+#rightimg {
+    overflow: hidden;
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    top: 240px;
+}
+
+#ndparentdiv {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 610px;
+}
+
+#ndparentdiv:hover {
+    background-color: gray;
+    transition: 0.5s ease-in 0s;
+}
+
+#textdiv {
+    color: black;
+}
+
+#ndportiondiv {
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+
+#textasparadiv {
+    border: 1px solid black;
+}
+
+#textid {
+    color: black;
+    position: absolute;
+    right: 80px;
+    top: 180px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textpara {
+    color: black;
+    position: absolute;
+    right: 120px;
+    top: 380px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rdparentdiv {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(245, 248, 251);
+    position: absolute;
+    top: 1229px;
+}
+
+#rdpagehea {
+    color: black;
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rdpageimg {
+    position: absolute;
+    right: 90px;
+    top: 70px;
+}
+
+#rdpagepara {
+    color: black;
+    position: absolute;
+    top: 280px;
+    left: 90px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 29px;
+}
+
+#rdparentdiv:hover {
+    background-color: rgb(124, 154, 154);
+    transition: 1s ease-in 0.1s;
+}
+
+#thparentdiv {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 1848px;
+}
+
+#thimgdiv {
+    height: 680px;
+    width: 680px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+#thtext {
+    color: black;
+    position: absolute;
+    right: 170px;
+    top: 200px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#thpara {
+    color: black;
+    position: absolute;
+    right: 160px;
+    top: 330px;
+    line-height: 28px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#thparentdiv:hover {
+    background-color: rgb(204, 170, 236);
+    transition: 1s ease-in 0.2s;
+}
+
+#fifthparentdiv {
+    background-color: rgb(244, 241, 241);
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 2467px;
+}
+
+#fifthhea {
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fifthpara {
+    color: black;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fifthimg {
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    height: 600px;
+    width: 1100px;
+}
+
+#fifthanotherimg {
+    position: absolute;
+    top: 900px;
+    left: 400px;
+}
+
+#fifthlastherad {
+    color: black;
+    margin-left: 50px;
+    margin-top: -23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fifthbutton {
+    position: absolute;
+    top: 1000px;
+    left: 510px;
+    width: 280px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(122, 122, 227);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+    /* .fa-light {
+        background-color: black;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+    } */ 
+}
+#fifthbutton:hover{
+        box-shadow: 0px 3px 5px rgb(101, 101, 237);
+        transition: 0.1s ease-in 0s;
+}  
+#fifthparentdiv:hover{
+background-color: gray;
+transition:1s ease-in 0.1s;
+}
+#sixdiv{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 3705px;
+}
+#sixdiv{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#firstrow{
+    margin-top: -30px;
+}

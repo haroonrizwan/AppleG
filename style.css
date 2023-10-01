@@ -1,0 +1,127 @@
+* {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    background-color: black;
+    width: 70%;
+    margin: auto;
+
+}
+
+#myid {
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+}
+
+.mir {
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+#first {
+    background-color: transparent;
+    width: -29px;
+    height: 0px;
+    position: absolute;
+    left: -83px;
+    border-top: 0px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 33px solid transparent;
+    border-right: 50px solid black;
+}
+
+#last {
+    background-color: transparent;
+    width: 20px;
+    height: 0px;
+    position: absolute;
+    top: 0px;
+    right: -85px;
+    border-left: 50px solid black;
+    border-right: 15px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-top: -3px solid transparent;
+}
+
+h1 {
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+select {
+    background-color: black;
+}
+
+input {
+    width: 400px;
+
+}
+
+button {
+    background-color: orange;
+    color: black;
+    position: relative;
+    right: 85px;
+}
+
+p {
+    color: black;
+}
+
+#har {
+    margin-left: 350px;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#nor {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 150px;
+    right: 355px;
+    font-size: 22px;
+}
+#fasion{
+    
+    position: absolute;
+    top: 450px;
+    color: black;
+   
+}
+#newol{
+    position: absolute;
+    background-color: black;
+    list-style-type: none;
+    display:none;
+}
+
+li:hover{
+    background-color: darkgoldenrod;
+
+}
+.mir:hover #newol{
+    display: block !important;
+    
+}

@@ -1,0 +1,114 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+@media print{
+    h1{
+        color: red;
+    }
+}
+
+
+@media screen{
+    h1{
+        color: blue ;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>FAISALABAD IS MY CITY1</h1>
+    <h1>FAISALABAD IS MY CITY2</h1>
+    <h1>FAISALABAD IS MY CITY3</h1>
+    <h1>FAISALABAD IS MY CITY4</h1>
+    <h1>FAISALABAD IS MY CITY5</h1>
+ <h1>FAISALABAD IS MY CITY6</h1>
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://css.gg/css" rel="stylesheet" />
+    <style>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    background-color: gray;
+    height: 68px;
+}
+#default-menu{
+    display: none;
+    list-style-type: none;
+    line-height: 40px;
+    width: 34%;
+  float: right;
+}
+li{
+    flex-grow: 1;
+}
+
+@media screen and (max-width:1000px){
+    #default-menu{
+        display: none;
+    }
+    #screen-menu{
+        display: flex;
+    }
+}
+@media screen and (min-width:999px){
+    #default-menu{
+        display: flex;
+    }
+    #screen-menu{
+        display: none;
+    }
+}
+
+#screen-menu{
+float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+
+<ol id="default-menu">
+
+<li>MENU</li>
+<li>HOME</li>
+<li>CONTACT US</li>
+<li>EMAIL</li>
+<li>LOGIN</li>
+
+</ol>
+
+<ol id="screen-menu">
+    <li class="gg-menu-oreos"> </li>
+</ol>
+    </nav>
+</body>
+</html>
